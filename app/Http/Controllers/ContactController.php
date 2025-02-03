@@ -4,9 +4,10 @@ namespace App\Http\Controllers;
 
  use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Mail;
-// use Symfony\Component\Mime\Part\TextPart;
+
+
 
 class ContactController extends Controller
 {
@@ -69,6 +70,11 @@ class ContactController extends Controller
         'subject'=> $request->input('subject'),
         'message'=> $request->input('message'),
     ];
+
+
+    // Vérifie les données avec dd()
+    dd($data);
+    
     // l'envoie de l'email
     Mail::raw("Nom: {$data['name']}\nEmail: {$data['email']}\nTéléphone: {$data['phone']}\nMessage: {$data['message']}", function ($message) use ($data) {
         $message->to('asgroupe12@gmail.com')
