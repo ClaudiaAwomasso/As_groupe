@@ -22,16 +22,11 @@ Route::get('/services',[ Homecontroller::class,'services'])
 ->name(name: 'services');
 
 
-Route::get('/contact',[ Homecontroller::class,'contact'])
-->name(name: 'contact');
+// Route::get('/contact',[ Homecontroller::class,'contact'])
+// ->name(name: 'contact');
 
 
 
 Route::get('/contact', [ContactController::class, 'showForm'])->name('contact');
 Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.send');
-
-\Illuminate\Support\Facades\Mail::raw('Test email', function ($message) {
-    $message->to('asgroupe12@gmail.com')
-        ->subject('Test Laravel Mail');
-});
 

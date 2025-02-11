@@ -28,9 +28,6 @@
                 Notre parcours est marqué par la satisfaction de nos clients, la construction de partenariats solides, et une constante recherche d’excellence.
 
             </p>
-            {{-- <a href="">
-            En savoir plus
-            </a> --}}
           </div>
         </div>
         <div class="col-md-6 ">
@@ -59,9 +56,7 @@
                 personnalisées pour accompagner nos clients dans leurs projets. Nous croyons en l’innovation, l’excellence,
                  et la proximité comme piliers de notre réussite et celle de nos partenaires.
             </p>
-            {{-- <a href="">
-            En savoir plus
-            </a> --}}
+
           </div>
         </div>
       </div>
@@ -80,9 +75,7 @@
               - <strong class="bold">Fiabilité </strong>: Des prestations de qualité, livrées dans les délais convenus. <br>
               - <strong class="bold">Proximité </strong>: Un partenariat basé sur la confiance et la transparence. <br>
             </p>
-            {{-- <a href="">
-            En savoir plus
-            </a> --}}
+
           </div>
         </div>
         <div class="col-md-6 ">
@@ -111,9 +104,6 @@
                dépassent leurs attentes et qui contribuent à leur succès.
 
             </p>
-            {{-- <a href="">
-            En savoir plus
-            </a> --}}
           </div>
         </div>
       </div>

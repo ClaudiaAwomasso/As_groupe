@@ -7,26 +7,29 @@
       <div class="row">
         <div class="col-md-6 col-lg-3 info_col">
           <div class="info_contact">
-            <h4>
-              Address
+            <h4 style="color: #FEF104">
+                Adresse
             </h4>
             <div class="contact_link_box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
-                  Location
+                    Localisation :
+                    <br>
+                    Nous sommes situés à Abomey-Calavi, quartier Tokpa Zoungo, 5ᵉ von en partant de la gare routière du carrefour IITA, dans le premier immeuble de cinq étages.
+
                 </span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  Tel : +229 0157830591 / 0143126082
                 </span>
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  Email : asgroupe12@gmail.com
                 </span>
               </a>
             </div>
@@ -46,49 +49,50 @@
             </a>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-3 info_col">
           <div class="info_detail">
-            <h4>
+            <h4 style="color: #FEF104">
               Info
             </h4>
             <p>
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+                Notre site a été conçu pour refléter notre engagement envers l'excellence et pour offrir à nos visiteurs une expérience fluide et intuitive.
             </p>
           </div>
         </div>
         <div class="col-md-6 col-lg-2 mx-auto info_col">
           <div class="info_link_box">
-            <h4>
-              Links
+            <h4 style="color: #FEF104">
+              Liens
             </h4>
             <div class="info_links">
-              <a class="active" href="index.html">
+              <a class="active" href="{{ route('accueil') }}">
                 <img src="images/nav-bullet.png" alt="">
-                Home
+                Accueil
               </a>
-              <a class="" href="about.html">
+              <a class="" href="{{ route('a_propos') }}">
                 <img src="images/nav-bullet.png" alt="">
-                
+                À Propos
               </a>
-              <a class="" href="service.html">
+              <a class="" href="{{ route('services') }}">
                 <img src="images/nav-bullet.png" alt="">
                 Services
               </a>
-              <a class="" href="contact.html">
+              <a class="" href="{{ route('contact') }}">
                 <img src="images/nav-bullet.png" alt="">
-                Contact Us
+                Contactez-nous
               </a>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 info_col ">
-          <h4>
-            Subscribe
+          <h4 style="color: #FEF104">
+            Abonnez-vous
           </h4>
           <form action="#">
-            <input type="text" placeholder="Enter email" />
+            <input type="text" placeholder="Saisissez votre email" />
             <button type="submit">
-              Subscribe
+                S'abonner
             </button>
           </form>
         </div>

@@ -7,7 +7,7 @@
     <div class="hero-content">
         <h1 class="hero-title">Contactez-nous</h1>
         <p class="hero-subtitle">Nous sommes à votre écoute pour répondre à vos besoins.</p>
-        <a href="#services" class="hero-btn">Découvrez nos services</a>
+        <a href="{{ route('services') }}" class="hero-btn">Découvrez nos services</a>
     </div>
 </div>
 

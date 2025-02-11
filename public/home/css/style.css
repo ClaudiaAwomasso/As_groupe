@@ -1013,11 +1013,16 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+
+}
+.contact_link_box h4{
+    color:#FEF104 ;
 }
 
 .info_section .info_contact .contact_link_box a {
   margin: 5px 0;
   color: #ffffff;
+
 }
 
 .info_section .info_contact .contact_link_box a i {
@@ -1025,9 +1030,9 @@ button:hover {
   color: #FEF104;
 }
 
-.info_section .info_contact .contact_link_box a:hover {
+/* .info_section .info_contact .contact_link_box a:hover {
   color: #0a97b0;
-}
+}*/
 
 .info_section .info_social {
   display: -webkit-box;
@@ -1081,7 +1086,7 @@ button:hover {
 }
 
 .info_section .info_links a:hover {
-  color: #0a97b0;
+  color:#FEF104;
 }
 
 .info_section form input {
@@ -1115,8 +1120,8 @@ button:hover {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #0a97b0;
-  color: #ffffff;
+  background-color:  #FEF104;
+  color: #0056b3;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -1125,7 +1130,7 @@ button:hover {
 }
 
 .info_section form button:hover {
-  background-color: #065968;
+  background-color: #ffff;
 }
 
 /* footer section*/
@@ -1139,6 +1144,7 @@ button:hover {
   color: #04233b;
   padding: 25px 0;
   margin: 0;
+  font-size: 15px;
 }
 
 .footer_section p a {

@@ -7,7 +7,7 @@
 <div class="hero-banner" style="background-image: url({{asset('home/images/services.jpg')}});background-position:10,15" id="imageApropos">
     <div class="hero-content">
         <h1 class="hero-title">Nos services</h1>
-       <p style="font-size: 20px">ASgroupe met à votre disposition une gamme variée de services adaptés à vos besoins</p>
+       <p style="font-size: 20px">ASgroupe met à votre disposition une gamme variée de services adaptés à vos besoins.</p>
 
                {{-- <a href="#services" class="hero-btn">Découvrez nos services</a> --}}
     </div>
@@ -24,9 +24,7 @@
                 Découvrez nos domaines d’expertise
               </h2>
             </div>
-            {{-- <p>
-              ASgroupe offre une gamme variée de services pour répondre aux besoins de ses clients. Nous sommes spécialisés dans plusieurs domaines stratégiques, chacun soutenu par une expertise approfondie et une approche sur mesure.
-            </p> --}}
+         
           </div>
         </div>
 
